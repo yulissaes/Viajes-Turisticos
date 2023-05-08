@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Menu  {
+    list-style-type: none;
+    background-color: rgb(149, 73, 140);
+    padding-block: 10px;
+    position: sticky;
+    top: 0;
+
+}
+
+.menu__item {
+    display: inline-block;
+    margin-inline: 10px;
+}
+
+.menu__item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu__item.active  a,
+.menu__item a:hover {
+    text-decoration: underline double;
+}
+
+main {
+    padding: 5px;
+}
+
+/*Cartas */
+.Carta {
+    width: 24%;
+    background-color: rgb(140, 138, 140);
+    padding: 10px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 20px;
+    text-align: center;
+    height: 470px;
+    overflow: auto;
+    border: 3px solid rgb(23, 22, 22);
+}
+.Cartita__imagen {
+    width: 90%;
+}
+.Cartita__titulo {
+    font-size: 18px;
+}
+.Cartita__parrafo {
+    font-size: 10%;
+
+
+}
+
+.Cartita__boton {
+    background-color: rgb(142, 145, 152);
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.Cartita__imagen, 
+.Cartita__titulo, 
+.Cartita__parrafo{
+    margin-bottom: 30px;
+}
+.whatsapp {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+
+
+
+}
